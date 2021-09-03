@@ -16,7 +16,7 @@ public class ConfigMgr {
         }
     }
 
-    public static String EmployeeFileLocation(){
+    public static String employeeFileLocation(){
         return config.getProperty("employee_csv_location");
     }
 
