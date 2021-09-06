@@ -5,7 +5,7 @@ public class EmployeesGenerator {
 
     private final EmployeeRecordScanner employeeRecordScanner = new EmployeeRecordScanner();
 
-    private Map<String, Employee> generateEmployeesMap() {
+    public Map<String, Employee> generateEmployeesMap() {
         Map<String, Employee> employeesMap = new HashMap<>();
 
         for(String[] employee : employeeRecordScanner.generateRawEmployeeData()){
